@@ -5,7 +5,7 @@
  * Return: 0
  */
 
-int main
+int main(void)
 {
 int c = 0;
 
@@ -18,5 +18,6 @@ putchar(',');
 putchar(' ');
 }
 c++;
+return (0);
 }
 }
