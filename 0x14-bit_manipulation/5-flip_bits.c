@@ -9,8 +9,8 @@
  */
 unsigned int flip_bits(unsigned long int n, unsigned long int m)
 {
-int count = 0;
-for (int x = n ^ m; x != 0; x = x >> 1)
+int x, count = 0;
+for ( x = n ^ m; x != 0; x = x >> 1)
 {
 count += x & 1;
 }
