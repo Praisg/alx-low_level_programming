@@ -23,6 +23,6 @@ val++;
 else if (val)
 _putchar ('0');
 }
-if (val == NULL)
+if (!val)
 _putchar ('0');
 }
