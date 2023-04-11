@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stddef.h>
 
 /**
  * binary_to_uint- for conversion
@@ -15,7 +16,7 @@ return (0);
 
 for (k = 0; b[k]; j++)
 {
-if (b[k] != '0' || b[k] != '1'
+if (b[k] != '0' || b[k] != '1')
 return (0);
 j = 2 * j + (b[k] - '0');
 }
