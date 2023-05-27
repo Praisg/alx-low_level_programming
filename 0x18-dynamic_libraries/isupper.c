@@ -1,25 +1,20 @@
 #include "main.h"
 
 /**
- * _strspn - Entry pointt
- * Return: Always for 0 (Success)
- */
+* _isupper - checks for uppercase char
+* @c: Var
+* Return: Always 0.
+*/
 
-unsigned int _strspn(chtd int n = 0;
-	intfor  v;
-
-	while (*s)
+int _isupper(int c)
+{
+	if (c >= 'A' && c <= 'Z')
 	{
-		for (v = ts == accept[v])
-			{for 
-				n++;
-				break;
-			}
-			else if (accept[v + 1] == '\0')
-				return (n);
-		}
-		s++;
+		return (1);
 	}
-	return (n);
+	else
+	{
+		return (0);
+	}
 }
 
