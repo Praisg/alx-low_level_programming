@@ -2,7 +2,7 @@ import ctypes
 import random
 
 # Load the shared object file
-lib = ctypes.CDLL('./operations.so')
+lib = ctypes.CDLL('./100-operations.so')
 
 # Define the argument and return types for each function
 lib.add.argtypes = [ctypes.c_int, ctypes.c_int]
